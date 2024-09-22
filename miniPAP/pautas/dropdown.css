@@ -1,0 +1,78 @@
+/* ----------------------------------------- CORES DO SITE ------------------------------------------------*/
+:root{
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #ffffff;
+    --main-color:#0ef;
+}
+
+/* Class do dropdown */
+.dropdown {
+    /* Afastamento do lado esquerdo do dropdown */
+    padding-left: 3%;
+    padding-top: 10%;
+
+}
+
+/* Class do botao do dropdown */
+.dropbtn {
+    min-width: 280px; /* Background mais largo */
+    background-color: black;/* Cor de fundo */
+    color: white;/* Cor do texto */
+    padding: 16px;/* Espaçamento interno */
+    font-size: 16px;/* Tamanho da letra */
+    border: none;/* Remove a borda padrão */
+    cursor: pointer;/* Cursor de mãozinha ao passar o mouse */
+    border-radius: 8px; /* Bordas redondas */
+}
+
+
+/* Class do conteudo do dropdown */
+.dropdown-content {
+    display: none;/* Oculta o conteúdo por padrão */
+    position: absolute;/* Posicionamento absoluto para sobrepor outros elementos */
+    background-color: var(--bg-color);/* Cor de fundo */
+    min-width: 280px; /* Background mais largo */
+    margin-left: 10px; /* Dropdown arrastado para a direita */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);/* Sombra para dar profundidade */
+    z-index: 1; /* Garante que o dropdown fique acima de outros elementos */
+    border-radius: 8px; /* Bordas redondas */
+}
+
+
+/* Class do conteudo do dropdowñ quando aberta as opçoes */
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 8px; /* Bordas redondas */
+}
+
+/* Class do conteudo do dropdowñ quando aberta as opçoes e o rato em cima dessas mesmas opcoes */
+.dropdown-content a:hover {
+    background-color: grey;
+}
+
+/* Estilo do botao quando o mouse passa por cima */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Class de quando o rato passa por cima do botao */
+.dropdown:hover .dropbtn {
+    background-color: grey;/* Cor do background*/
+}
+
+/* Class do menu selecionado */
+.select {
+    font-weight: bold;/* Poe a letra a negrito */
+}
+
+/* Cor do texto em cima do dropdown*/
+.dropdown p{
+    color: var(--text-color);/* Cor do texto */
+    font-size: 20px;/* Tamanho da letra*/
+    display: flex;
+    justify-content: center;/* Texto centralizado*/
+}

@@ -1,0 +1,7 @@
+/* Procura os elemtos que pertencem a interface dentro do header */
+header .interface{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;
+}

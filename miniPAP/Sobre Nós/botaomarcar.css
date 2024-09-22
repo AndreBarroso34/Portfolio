@@ -1,0 +1,45 @@
+/* style do botao COMEÇAR */
+.btn-marcar button{
+
+
+    /* Altura e comprimeto */
+    padding: 10px 30px;
+
+    /* Tamanho da letra */
+    font-size: 50px;
+
+    /* borda do botao */
+    border: 0;
+    border-radius: 20px;
+
+    /* Cor do texto */
+    color: white;
+    font-weight: 400;
+
+    /* Cor do background do botao */
+    background: linear-gradient(to right, rgb(0, 4, 255), rgb(10, 40, 124));
+
+    /* Quando o rato esta em cima do botao, ativa uma animaçao*/
+    cursor: pointer; 
+}
+
+.btnMarcardiv{
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+    text-align: center;
+}
+
+/* Quando a tela estiver a 1244px o botao fica deste tamanho */
+@media screen and (max-width: 1244px){
+    .btn-marcar button{
+        /* Tamanho de letra */
+        font-size: 50px ;
+
+        /* Altura e comprimeto */
+        padding: 8px 20px;
+    }
+
+}
+
+

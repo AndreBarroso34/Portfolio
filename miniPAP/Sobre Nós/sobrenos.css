@@ -1,0 +1,54 @@
+/* ----------------------------------------- CORES DO SITE ------------------------------------------------*/
+:root{
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #ffffff;
+    --main-color:#0ef;
+}
+/*------------------------------------------ CORPO DO SITE ------------------------------------------------*/
+/* Corpo do site */
+body{
+    background-color: var(--text-color);
+}
+
+main{
+    padding: 3%;
+}
+
+/* CLASS do Titulo */
+.titulo-sobrenos{ 
+    /* Texto no centro do ecra */
+    text-align: center;
+
+    /* Tamanho da letra */
+    font-size: 40px;
+
+
+}
+
+/* CHAMDA DO ID QUE CRIA O SUBLINHADO */
+#titulo-sobrenos{
+    /* cor do sublinhado */
+    text-decoration: underline blue;
+
+    /* cor do texto */
+    color: black;
+}
+
+
+
+.corpo-site{
+    font-size: 30px;
+
+    font-weight: bold;
+
+    padding-top: 4%;
+    
+}
+
+.emails{
+    text-align: center;
+
+    padding-top: 2%;
+    padding-bottom: 2%;
+}

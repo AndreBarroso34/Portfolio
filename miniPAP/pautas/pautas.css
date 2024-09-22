@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+/* ----------------------------------------- CORES DO SITE ------------------------------------------------*/
+:root{
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #ffffff;
+    --main-color:#0ef;
+}
+/*------------------------------------------ CORPO DO SITE ------------------------------------------------*/
+/* Corpo do site */
+*{
+    background-color: var(--bg-color);
+    /* tipo de letra */
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Class do titulo do corpo da pagina*/
+.titulo{
+    /* Tamanho da letra */
+    font-size: 70px;
+
+    /* texto centralizado */
+    text-align: center;
+
+}
+
+/* CHAMDA DO ID QUE CRIA O SUBLINHADO */
+#formacao{
+    /* cor do sublinhado */
+    text-decoration: underline blue;
+
+    /* cor do texto */
+    color: white;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    
+}
+
+.texto {
+    margin-left: 20px; /* Ajuste o valor conforme necessário para espaçamento */
+    color: white;
+    display: flex;
+    flex-direction: column; /* Empilhar verticalmente */
+}
+
+
+.texto img {
+    margin: 0 auto; /* Centraliza a imagem */
+    border-radius: 10px;
+    
+}
+
+.imagem{
+    display: flex;
+}
+
+.texto p{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+
+
+
+/* Class das pautas verticais */
+.tone2,
+.tone3,
+.tone4,
+.tone{
+    padding-top: 10%;
+    display: flex;
+    flex-direction:row; /* Empilhar verticalmente */
+    
+}
+
+.pauta3{
+    padding-right: 7%;
+}
+
+/* Subtitulo das pautas(Piano, Flauta, Guitarra) */
+.subtitulo{
+
+    font-size: 50px;
+    padding-left: 5%;
+
+}
+
+/* CHAMDA DO ID QUE CRIA O SUBLINHADO */
+#subtitulo{
+    /* cor do sublinhado */
+    text-decoration: underline blue;
+
+    /* cor do texto */
+    color: white;
+}
+
+
+.pauta2-flauta{
+    padding-right: 10%;
+}
+
+.pauta6-flauta{
+    padding-left: 5%;
+}
+
+/* CLASS das politicas de privacidade */
+.politicasprivacidade{
+    padding-top: 2%;
+    text-align: center;
+}

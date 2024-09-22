@@ -1,0 +1,29 @@
+.topicos{
+    padding-left: 4%;
+}
+
+h1{
+    padding-left: 4%;
+    padding-top: 1%;
+}
+
+p{
+    padding-left: 5%;
+    padding-top: 1%;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+
+/* CHAMDA DO ID QUE CRIA O SUBLINHADO */
+#titulo{
+    /* cor do sublinhado */
+    text-decoration: underline blue;
+
+}
+
+.politicasprivacidade{
+    text-align: center;
+}

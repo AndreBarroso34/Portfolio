@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+/* ----------------------------------------- CORES DO SITE ------------------------------------------------*/
+:root{
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #ffffff;
+    --main-color:#0ef;
+}
+
+/*------------------------------------------ CORPO DO SITE ------------------------------------------------*/
+/* Corpo do site */
+body{
+    background-color: var(--text-color);
+    /* tipo de letra */
+    font-family: 'Poppins', sans-serif;
+}
+
+/* CLASS do texto e botao inicial */
+.txt-inicial{
+    text-align: center;
+
+    font-size: 60px;
+}
+
+/* CLASS do texto inicial */
+.txt-aprender{
+    padding: 7% 0;
+    color: var(--bg-color);
+}
+
+
+
+@media screen and (max-width: 1244px){
+    /* CLASS do texto principal  */
+    .txt-inicial{
+        padding: 10% 0 ;
+    }
+
+    /* CLASS do botao  */
+    .txt-aprender{
+        padding: 10% 0 ;
+        font-size: 40px;
+    }
+
+    /* CLASS do logo do header */
+    .logo_header{
+        padding-top: 0%;
+        
+    }
+}
+
+/* CLASS das politicas de privacidade */
+.politicasprivacidade{
+    padding-top: 2%;
+    text-align: center;
+}
+
