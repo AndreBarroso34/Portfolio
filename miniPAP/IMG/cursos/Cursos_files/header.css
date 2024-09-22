@@ -1,0 +1,126 @@
+/* ----------------------------------------- CORES DO SITE ------------------------------------------------*/
+:root{
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color:#0ef;
+}
+
+/* ----------------------------------------- DEFENIÇOES DO SITE EM GERAL ------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/*------------------------------------------ HEADER DO SITE ------------------------------------------------*/
+/* CLASS logo do site */
+.logo{
+    font-size: 50px;
+    font-weight: 550;
+    color: var(--text-color);
+}
+
+/* CLASS do header */
+.header{
+    background-color: var(--bg-color);
+    justify-content: space-between;
+    padding: 0 10%;
+    height: 5em;
+
+}
+
+/* CLASS do header e a class dos menus do header */
+.header,
+.navigation_header{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+/* CLASS dos menus do header */
+.navigation_header{
+    
+    padding: 0 0%;
+    gap: 5em;
+    z-index: 2;
+}
+
+/* Class do texto dos menus do header */
+.navigation_header a{
+    text-decoration: none;
+    color: var(--text-color);
+    transition: 1s;
+    font-weight: bold;
+}
+
+/* Quando algum dos menus estiver selecionado ou com um rato em cima ele muda para a cor main-color */
+.navigation_header a:hover,
+.navigation_header a.active{
+    color: var(--main-color);
+
+}
+
+
+/* Class do botao do header */
+.btn_icon_header{
+    background: transparent;
+    border: none;
+    color: var(--text-color);
+    cursor: pointer;
+    display: none;
+}
+
+/* Quando a tela estiver a 1244px executar o que esta em baixo */
+@media screen and (max-width: 1244px) {
+    
+    /* CLASS do header */
+    .navigation_header{
+
+        /* posiçao */
+        
+        position: absolute;
+        flex-direction: column !important;
+        top: 0;
+
+        /* cor de fundo */
+        background: var(--bg-color);
+
+        /* comprimento e largura */
+        height: 100%;
+        width: 100%;
+
+        /* tamanho de letra */
+        font-size: 140%;
+
+        padding: 1em;
+        z-index: 2000;
+
+        
+
+        /* duraçao da animaçao */
+        animation-duration: 1s;
+
+        margin-left: -200vw;
+    }
+
+    /* Class do icon do header */	
+    .btn_icon_header{
+        display: block;
+    }
+
+    
+}
+
+
+
+/* Animaçao para mostrar header lateral */
+@keyframes showSidebar {
+    from {margin-left: -200vw;}
+    to {margin-left: -10vw;}
+}
+
+
+

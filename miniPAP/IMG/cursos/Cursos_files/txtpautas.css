@@ -1,0 +1,338 @@
+/* ----------------------------------------- CORES DO SITE ------------------------------------------------*/
+:root{
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color:#0ef;
+}
+
+/* ----------------------------------------- DEFENIÇOES DO SITE EM GERAL ------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'JetBrains';
+}
+
+body {
+    background-color: var(--bg-color);
+
+}
+
+main{
+    padding: 3% 0 ;
+}
+
+/* ---------------------------------------- CORPO SITE -------------------------------------------------------------*/
+
+/* -------------- Pautas ----------*/
+
+/* CLASS do texto, imagem e botao de pautas */
+.pauta{
+    display: flex;
+    padding: 4% 13%;
+}
+/* CLASS da imagem pauta */
+.pauta img{
+
+    width: 260px;
+    height: 250px;
+    border-radius: 30px;
+}
+/* CLASS do texto pauta */
+.txt-pauta{
+    color: var(--text-color);
+    padding: 0 8%;
+}
+
+/* CLASS do paragrafo pauta */
+.txt-pauta p{
+    padding: 5% 0%;
+    font-size: 30px;
+}
+
+/* CLASS do titulo pauta */
+.pauta h1{
+    background-color: var(--text-color);
+    color: black;
+    width: 100%;
+    border: 0;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 2.7em;
+}
+
+
+
+/* ------------------------------------------------------ FORMAÇA MUSICAL --------------------------------------------------*/
+
+/* CLASS do texto, imagem e botao de formaçao musical */
+.formacao{
+    display: flex;
+    padding: 4% 13%;
+}
+/* CLASS da imagem formaçao musical */
+.formacao img{
+    width: 260px;
+    height: 250px;
+    border-radius: 30px;
+}
+/* CLASS do texto formaçao musical */
+.txt-formacao{
+    color: var(--text-color);
+    padding: 0% 8%;
+}
+
+/* CLASS do paragrafo formaçao musical */
+.txt-formacao p{
+    padding: 5% 0%;
+    font-size: 30px;
+}
+
+/* CLASS do titulo formaçao musical */
+.formacao h1{
+    background-color: var(--text-color);
+    color: black;
+    width: 100%;
+    border: 0;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 2.7em;
+    
+}
+
+
+
+/* ------------------------------------------------------ PIANO --------------------------------------------------*/
+
+/* CLASS do texto, imagem e botao de piano */
+.piano{
+    display: flex;
+    padding: 4% 13%;
+}
+/* CLASS da imagem piano */
+.piano img{
+    width: 260px;
+    height: 250px;
+    border-radius: 30px;
+}
+/* CLASS do texto piano */
+.txt-piano{
+    color: var(--text-color);
+    padding: 0% 8%;
+}
+
+/* CLASS do paragrafo piano */
+.txt-piano p{
+    padding: 6% 0%;
+    font-size: 30px;
+}
+
+/* CLASS do titulo piano */
+.piano h1{
+    background-color: var(--text-color);
+    color: black;
+    width: 100%;
+    border: 0;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 2.7em;
+    
+}
+
+
+
+/* ------------------------------------------------------ GUITARRA --------------------------------------------------*/
+
+/* CLASS do texto, imagem e botao de pautas */
+.guitarra{
+    display: flex;
+    padding: 4% 13%;
+}
+/* CLASS da imagem pauta */
+.guitarra img{
+    width: 260px;
+    height: 250px;
+    border-radius: 30px;
+}
+/* CLASS do texto pauta */
+.txt-guitarra{
+    color: var(--text-color);
+    padding: 0% 8%;
+}
+
+/* CLASS do paragrafo pauta */
+.txt-guitarra p{
+    padding: 10% 0%;
+    font-size: 30px;
+}
+
+/* CLASS do titulo pauta */
+.guitarra h1{
+    background-color: var(--text-color);
+    color: black;
+    width: 100%;
+    border: 0;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 2.7em;
+    
+}
+
+
+
+/* Quando a tela for reduzida a 720px, faz o que está em baixo */
+@media screen and (max-width: 796px){
+    /* botao aprender */
+    .btn-aprender{
+        padding: 0 10%;
+        cursor: pointer;
+        
+        
+    }
+
+    
+
+    /* botao ver */
+    .btn-ver{
+        padding: 0 5%;
+        
+    }
+
+    /* PAUTA */
+    .pauta{
+        position: absolute;
+        flex-direction: column !important;
+        padding: 7% 10%;
+        
+    }
+    .img-pauta{
+        padding-left: 15%;
+        padding-right: 50%;
+    }
+    .pauta img{
+        
+        border-radius: 20px;
+        
+        width: 300px;
+        height: 310px;
+       
+
+
+    }
+    .txt-pauta p{
+        padding: 10% 0;
+        font-size: 24px;
+    }
+    .txt-pauta {
+        padding-top: 10% ;
+    }
+
+    
+    
+    
+
+    /* FORMAÇAO MUSICAL */
+    .formacao{
+        position: absolute;
+        flex-direction: column !important;
+        
+        padding-top: 780px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .img-formcao{
+        padding-left: 15%;
+        padding-right: 50%;
+    }
+
+    .formacao img{
+        border-radius: 20px;
+        
+        width: 300px;
+        height: 310px;
+
+       
+
+        
+    }
+    .txt-formacao p{
+        padding: 10% 0;
+        font-size: 24px;
+    }
+
+    .txt-formacao{
+        padding-top: 10% ;
+    }
+
+    /* PIANO */
+    .piano{
+        position: absolute;
+        flex-direction: column !important;
+        padding-top: 1570px;
+        padding-left: 10%;
+        padding-right: 10%;
+        
+    }
+
+    .img-piano{
+        padding-left: 15%;
+        padding-right: 50%;
+    }
+
+    .piano img{
+        border-radius: 20px;
+        
+        width: 300px;
+        height: 310px;
+
+       
+
+        
+    }
+    .txt-piano p{
+        padding: 10% 0;
+        font-size: 24px;
+    }
+
+    .txt-piano{
+        padding-top: 10% ;
+    }
+
+    /* GUITARRA */
+    .guitarra{
+        position: absolute;
+        flex-direction: column !important;
+        
+        padding-top: 2350px ;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+    .img-guitarra{
+        padding-left: 15%;
+        padding-right: 50%;
+    }
+
+    .guitarra img{
+        border-radius: 20px;
+        
+        width: 300px;
+        height: 310px;
+
+       
+
+        
+    }
+    .txt-guitarra p{
+        padding: 10% 0;
+        font-size: 24px;
+    }
+
+    .txt-guitarra{
+        padding-top: 10% ;
+    }
+    
+    
+}
