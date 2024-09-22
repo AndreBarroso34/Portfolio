@@ -1,0 +1,62 @@
+/* style do botao COMEÇAR */
+.btn-aprender button{
+    
+
+    /* Altura e comprimeto */
+    padding: 15px 40px;
+
+    /* Tamanho da letra */
+    font-size: 50px;
+
+    /* borda do botao */
+    border: 0;
+    border-radius: 20px;
+
+    /* Cor do texto */
+    color: white;
+    
+    /* Tamanho da grossora da letra */
+    font-weight: 400;
+
+    /* Cor do background do botao */
+    background: linear-gradient(to right, rgb(0, 4, 255), rgb(10, 40, 124));
+
+    /* Quando o rato esta em cima do botao, ativa uma animaçao*/
+    cursor: pointer; 
+}
+
+.btn-aprender{
+    padding-left: 30%;
+
+}
+
+/* Animaçao do botao*/
+.btn-aprender button:hover{
+    /* Nome da animação */
+    animation-name: animatio;
+
+    /* Duração da animação */
+    animation-duration: 0.5s;
+
+    /* Quantas vezes de repete a animação*/
+    animation-iteration-count: infinite;
+
+    /* Direção da animação */
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+
+    /* Cor da borda do botão */
+    box-shadow: 0 0 5px 5px rgba(4, 67, 241, 0.808); 
+}
+
+
+/* Animaçao do botao*/
+@keyframes animatio{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.05);
+    }
+
+}

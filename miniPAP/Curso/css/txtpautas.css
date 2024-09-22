@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+/* ----------------------------------------- CORES DO SITE ------------------------------------------------*/
+:root{
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color:#0ef;
+}
+
+/* ----------------------------------------- DEFENIÇOES DO SITE EM GERAL ------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body {
+    background-color: var(--bg-color);
+
+}
+
+main{
+    padding: 3% 0 ;
+}
+
+/* ---------------------------------------- CORPO SITE -------------------------------------------------------------*/
+
+
+/* CLASS do texto, imagem e botao */
+.pauta,
+.formacao,
+.piano,
+.flauta,
+.guitarra{
+    display: flex;
+    padding: 4% 13%;
+}
+/* CLASS da imagem  */
+.pauta img,
+.formacao img,
+.piano img,
+.guitarra img,
+.flauta img{
+
+    width: 260px;
+    height: 250px;
+    border-radius: 30px;
+}
+
+/* CLASS do texto  */
+.txt-pauta,
+.txt-formacao,
+.txt-piano,
+.txt-flauta,
+.txt-guitarra
+{
+    color: var(--text-color);
+    padding: 0 8%;
+}
+
+/* CLASS do paragrafo  */
+.txt-pauta p,
+.txt-formacao p,
+.txt-piano p,
+.txt-flauta p,
+.txt-guitarra p{
+    padding: 5% 0%;
+    font-size: 30px;
+}
+
+/* CLASS do titulo  */
+.pauta h1,
+.formacao h1,
+.piano h1,
+.flauta h1,
+.guitarra h1{
+    background-color: var(--text-color);
+    color: black;
+    width: 100%;
+    border: 0;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 2.7em;
+}
+
+
+
+@media screen and (max-width: 796px){
+    
+    
+    /* botao aprender */
+    .btn-aprender{
+        padding: 0 10%;
+    }
+
+    /* botao ver */
+    .btn-ver{
+        padding: 0 5%;   
+    }
+
+    /* -----------------PAUTA --------------------*/
+    .pauta,/* CLASS da aba pauta */
+    .formacao,/* CLASS da aba formação */
+    .piano,/* CLASS da aba piano */
+    .flauta,/* CLASS da aba flauta */
+    .guitarra/* CLASS da aba guitarra */
+    {
+        display: flex;
+        flex-direction: column !important
+    }
+
+    .img-pauta,/* CLASS DA IMAGEM PAUTA*/
+    .img-formacao,/* CLASS DA IMAGEM FORMACAO*/
+    .img-piano,/* CLASS DA IMAGEM PIANO*/
+    .img-flauta,/* CLASS DA IMAGEM FLAUTA*/
+    .img-guitarra/* CLASS DA IMAGEM GUITARRA*/
+    {
+        padding-left: 15%;
+        padding-right: 50%;
+    }
+
+
+    .txt-pauta,/* CLASS do texto pauta */
+    .txt-formacao,/* CLASS do texto formacao */
+    .txt-piano,/* CLASS do texto piano */
+    .txt-flauta,/* CLASS do texto flauta */
+    .txt-guitarra/* CLASS do texto guitarra */
+    {
+        padding-top: 10% ;
+    }
+
+    .txt-pauta p,/* CLASS do paragrafo pauta */
+    .txt-formacao p,/* CLASS do paragrafo formacao */
+    .txt-piano p,/* CLASS do paragrafo piano */
+    .txt-flauta p,/* CLASS do paragrafo flauta */
+    .txt-guitarra p/* CLASS do paragrafo guitarra */
+    {
+        padding: 10% 0;
+        font-size: 24px;
+    }
+}
+
+/* CLASS das politicas de privacidade */
+.politicasprivacidade{
+    padding-top: 2%;
+    text-align: center;
+}

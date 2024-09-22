@@ -1,0 +1,82 @@
+/* ----------------------------------------- CORES DO SITE ------------------------------------------------*/
+:root{
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color:#0ef;
+}
+
+/* ----------------------------------------- DEFENIÇOES DO SITE EM GERAL ------------------------------------------------*/
+
+body {
+    /* COR DO BACKGROUND DO SITE */
+    background-color: var(--bg-color);
+
+    /* POSIÇÃO DO CORPO DO SITE */
+    position: relative;
+}
+
+
+main{
+    /* ESPAÇAMENTO DE CIMA, DE BAIXO E DOS LADOS DO SITE EM GERLA*/
+    padding: 3%;
+
+    /* COR DO TEXTO EM GERAL DO SITE */
+    color: var(--text-color);
+}
+
+
+/* ----------------------------- TITULO ----------------------------- */
+
+/* Class do titulo do corpo da pagina*/
+.titulo{
+    /* Tamanho da letra */
+    font-size: 70px;
+
+    /* texto centralizado */
+    text-align: center;
+
+    /* Afastamento para baixo */
+    padding-bottom: 10%;  
+}
+
+/* CHAMDA DO ID QUE CRIA O SUBLINHADO */
+#Flauta{
+    /* cor do sublinhado */
+    text-decoration: underline blue;
+
+    /* cor do texto */
+    color: white;
+}
+
+.txtnotas-na-flauta,
+.txtpostura p,
+.txtpostura h2{
+    padding-left: 4%;
+
+}
+
+.txtsubtitulo p {
+    padding-left: 8%;
+    padding-top: 1%;
+}
+
+.txtsubtitulo h2{
+    padding-top: 2%;
+}
+
+.img-notas-flauta,
+.img-dedos-flauta{
+    /* Afastamento de cima */
+    padding-top: 2%;
+
+    /* Imagem centralizada */
+    text-align: center;
+
+}
+
+/* CLASS das politicas de privacidade */
+.politicasprivacidade{
+    padding-top: 2%;
+    text-align: center;
+}

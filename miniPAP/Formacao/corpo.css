@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+/* ----------------------------------------- CORES DO SITE ------------------------------------------------*/
+:root{
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color:#0ef;
+}
+
+/* ----------------------------------------- DEFENIÇOES DO SITE EM GERAL ------------------------------------------------*/
+
+body {
+    /* COR DO BACKGROUND DO SITE */
+    background-color: var(--bg-color);
+
+    /* POSIÇÃO DO CORPO DO SITE */
+    position: relative;
+    /* tipo de letra */
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    /* ESPAÇAMENTO DE CIMA, DE BAIXO E DOS LADOS DO SITE EM GERLA*/
+    padding: 3%;
+
+    /* COR DO TEXTO EM GERAL DO SITE */
+    color: var(--text-color);
+}
+
+/* ----------------------------- TITULO ----------------------------- */
+
+/* Class do titulo do corpo da pagina*/
+.titulo{
+    /* Tamanho da letra */
+    font-size: 70px;
+
+    /* texto centralizado */
+    text-align: center;
+
+    /* Afastamento para baixo */
+    padding-bottom: 10%;  
+}
+
+/* CHAMDA DO ID QUE CRIA O SUBLINHADO */
+#formacao{
+    /* cor do sublinhado */
+    text-decoration: underline blue;
+
+    /* cor do texto */
+    color: white;
+}
+
+/* ------------------------------ PAUTA MUSICAL -----------------------*/
+
+/* Class do texto da aba pauta*/
+.txt-pautainicial{
+   /* Tamanho da letra */
+    font-size: 20px;
+}
+
+/* Class dos paragrafos da aba pauta*/
+.txt-pautainicial p {
+    /* Afastamento do lado esquerdo e de cima */
+    padding-left: 2%;
+    padding-top: 2.5%;
+
+    /* Tamanho de letra */
+    font-size: 23px;
+}
+
+
+/* ---------------------------- CLAVES MUSICAIS ---------------------------*/
+
+
+.clavesmuscaistxt{
+   /* Tamanho da letra */
+    font-size: 20px;
+}
+
+
+.clavesmuscaistxt p {
+    /* Afastamento do lado esquerdo e de cima */
+    padding-left: 2%;
+    padding-top: 2.5%;
+
+    /* Tamanho de letra */
+    font-size: 23px;
+}
+
+/* ---------------------------- CLAVE DE SOL ---------------------------*/
+/* CLASS CLAVE DE SOL */
+.clave-sol{
+    /* Afastamento do lado esquerdo e de cima */
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2.5%;
+
+    /* Tamanho de letra */
+    font-size: 19px;
+}
+
+/* CLASS EXEMPLO DAS NOTAS NA CLAVE DE FÁ */
+.exemplo-clavesol-fa p{
+    /* ESPAÇAMENTO DE CIMA */
+    padding-top: 2%;
+
+    /* TEXTO CENTRALIZADO */
+    text-align: center;
+    
+    /* Tamanho de letra */
+    font-size: 23px;
+}
+
+
+
+
+/* ---------------- CLAVE DE FÁ --------------*/
+
+.clave-fa{
+    /* Afastamento do lado esquerdo e de cima */
+    padding-left: 2%;
+    padding-top: 2.5%;
+
+    /* Tamanho de letra */
+    font-size: 19px;
+}
+
+
+/* ---------------- TEMPOS --------------------*/
+/* Variavel geral da aba tempos */
+.geral-tempos{
+    display: flex;
+}
+
+.tempos{
+    /* Afastamento do lado esquerdo e de cima */
+    padding-left: 2%;
+    padding-top: 2.5%;
+
+    /* Tamanho de letra */
+    font-size: 19px;
+
+    /* largura*/
+    width: 100%;
+}
+
+.tempos p{
+    /* Afastamento do lado esquerdo e de cima */
+    padding-left: 2%;
+    padding-top: 2.5%;
+    
+    /* Altura*/
+    height: 10%;
+
+    /* Tamanho de letra */
+    font-size: 23px;
+
+}
+
+/* ---------------- Metronomo ---------*/
+
+/* CLASS METRONOMO, BOTÕES AUMENTAR E DIMINUIR , E LINHA AJUSTAR*/
+.metronomo,
+.btn-aumentar_diminuir,
+.linha-ajusta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+/* CLASS METRONOMO*/
+.metronomo{
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-right: 20%;
+}
+
+/* CLASS QUADRADO PRETO*/
+.quadrado-preto {
+    /* COR DO BACKGROUND DO METRONOMO*/
+    background-color: black;
+
+    /* ESPAÇAMENTO DOS DOIS LADOS E DE CIMA E DE BAIXO */
+    padding: 30px;
+    
+    /* BORDAS DO METRONOMO*/
+    border: 0;
+    border-radius: 20px;
+}
+
+/* CLASS BOTÃO PLAY DO METRONOMO */
+.btn-play button{
+    /* Altura e comprimeto */
+    padding: 10px 90px;
+
+    /* Tamanho da letra */
+    font-size: 20px;
+
+    /* borda do botao */
+    border: 0;
+    border-radius: 20px;
+
+    /* Cor do texto */
+    color: white;
+    
+
+    /* Cor do background do botao */
+    background: linear-gradient(to right, rgb(0, 4, 255), rgb(10, 40, 124));
+
+    /* Quando o rato esta em cima do botao, ativa uma animaçao*/
+    cursor: pointer; 
+
+    margin-bottom: 5%;
+}
+
+/* ------------------------------ FIGURAS MUSICAIS ----------------------*/
+
+.figurasmusicais h2{
+    /* MARGEM DO LADO ESQUERDO, DE CIMA E DE BAIXO*/
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+    /* TAMANHO DE LETRA */
+    font-size: 30px;
+    
+}
+.figurasmusicais p{
+    /* Afastamento do lado esquerdo e de cima */
+    padding-left: 2%;
+    padding-top: 2.5%;
+
+    /* Altura*/
+    height: 10%;
+
+    /* Tamanho de letra */
+    font-size: 23px;
+}
+
+.expl-semibreve{
+    margin-left: 7%;
+}
+
+
+/* --------------------- IMAGENS -------------*/
+
+.img-pauta-zero,/* Pauta sem nada */
+.img-clave-sol, /* Pauta com a clave de sol*/
+.img-clave_sol-do_a_do, /* Pauta com a clave de sol , dó a dó*/
+.img-clave_fa,/* Pauta com clave de fá */
+.img-clave-fa-escala, /* Pauta com escala na clave de fá */
+.img-nota_sol-clave_sol,/* Pauta com clave de sol e a nota sol*/
+.img-notaSol-clavefa/* Pauta com clave de fa e a nota sol */
+{
+    /* Afastamento de cima */
+    padding-top: 2%;
+
+    /* Imagem centralizada */
+    text-align: center;
+}
+
+.img-tabela{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 3%;
+}
+
+/* CLASS das politicas de privacidade */
+.politicasprivacidade{
+    padding-top: 2%;
+    text-align: center;
+}
+
+
+/* --------------------------------- QUANDO O SITE ESTIVER A 796PX -----------------*/
+@media screen and (max-width: 796px){
+    .geral-tempos{
+        display: flex;
+        flex-direction: column;
+    }
+    .metronomo{
+        margin-left: none;
+        margin-top: none;
+        
+    }
+    .tempos p{
+        height: 100%;
+        padding-right: 0;
+    }
+}
