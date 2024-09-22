@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Importação do botao -->
+    <link rel="stylesheet" href="Curso/css/botaoaprender.css">
+    <link rel="stylesheet" href="Curso/css/botaover.css">
+
+    <!-- Importaçao das paginas do header -->
+    <link rel="stylesheet" href="HEADER/header.css">
+    <script src="HEADER/header.js" defer></script>
+
+    <!-- Importação da pagina css formacao -->
+    <link rel="stylesheet" href="Formacao/corpo.css">
+
+    <!-- Importação da pagina js e css metronomo -->
+    <script src="metronomo/metronomo.js" defer></script>
+    <script src="metronomo/metrm2.js" defer></script>
+    <link rel="stylesheet" href="metronomo/metronomo.css">
+
+    <!-- Titulo da Pagina-->
+    <title>Formação Musical</title>
+</head>
+<body>
+    <!-- CLASS DO MEU HEADER -->
+    <div class="header" id="header">
+
+        <!-- CLASS do botão do icon para abiri o menu -->
+        <button onclick="toggleSidebar()" class="btn_icon_header">
+            <!-- Icon para abrir o header-->
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+        </button>
+
+        <!-- CLASS do logo do header -->
+        <div class="logo_header">
+            <a href="PaginaInicial.html" class="logo">PMusic</a>
+        </div>
+
+        <!-- CLASS e ID do icon para fechar o menu -->
+        <div class="navigation_header" id="navigation_header">
+            <!-- CLASS do botão do icon para fechar o menu -->
+            <button onclick="toggleSidebar()" class="btn_icon_header">
+                <!-- Icon para fechar o header-->
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+            </button>
+            
+            <!-- Menus do site -->
+            <a href="curso.html">Cursos</a>
+            <a href="sobrenos.html">Suporte</a>
+
+        </div>
+    </div>
+
+
+    <!-- CORPO DO SITE  -->
+    <main>
+        <!-- CLASS DO TITULO -->
+        <div class="titulo">
+            <!-- ID DO TITULO -->
+            <p id="formacao">Formação Musical</p>
+        </div>
+    
+        <!-- CLASS PARA A SECÇÃO DA PAUTA -->
+        <div class="txt-pautainicial">
+            <!-- SUBTITULO PAUTA  -->
+            <h1>Pauta musical</h1>
+            <!-- TEXTO PAUTA -->
+            <p> 
+                Uma pauta musical é constituida por 5 linhas horizontais e paralelas, tendo 4 espaços no meio
+                das 5 linhas. Uma forma de decorar isso é pensar numa mão, tem 5 dedos e 4 espaços entre os dedos.
+                Dentro, ou fora dessas linhas, tem elementos, elementos explicados a seguir.
+            </p>
+            <!-- CLASS DA IMAGEM DE UMA PAUTA -->
+            <div class="img-pauta-zero">
+                <!-- IMAGEM DE UMA PAUTA -->
+                <img src="IMG/FORMAÇÃO_MUSICAL/partitura_zero.png" alt="" style="width: 60%;">
+            </div>
+            
+        </div>
+        
+        <!-- CLASS PARA A SECÇÃO CLAVES MUSICAIS -->
+        <div class="clavesmuscaistxt">
+            <!-- SUBTITULO -->
+            <h1>Claves Musicais </h1>
+            <!-- TEXTO -->
+            <p> No inicio da pauta é colocado uma elemento chamado de clave musical. No mundo da música existe 3 claves musicais: </p>
+                <!-- SUBTITULO DO SUBTITULO CLAVES MUSICAIS-->
+            <div class="clave-sol">
+                <h2>Clave de sol</h2>
+                <div class="img-clave-sol">
+                    <!-- IMAGEM DE UMA CLAVE DE SOL NA PAUTA -->
+                    <img src="IMG/FORMAÇÃO_MUSICAL/clave de sol.png" alt="" style="width: 60%;">
+                </div>
+                <!-- TEXTO -->
+                <p> A clave de sol lê-se apartir da primeira linha (como vemos na imagem), seguindo sempre 7 notas, 
+                    (Dó, Ré, Mi, Fá, Sol, Lá, Si), até à 3 linha. Depois se quizermos continuar a subir mais uma oitava, basta fazer 
+                    o mesmo mas desta vez o dó começa no terceiro espaço. Vê o exemplo abaixo.
+                </p>
+                <div class="img-clave_sol-do_a_do">
+                    <img src="IMG/FORMAÇÃO_MUSICAL/clave_sol-do_a_do.jpg" alt="" style="width: 60%;">
+                </div>
+            </div>
+            
+            <!-- CLASS CLAVE DE FÁ -->
+            <div class="clave-fa">
+                <!-- SUBTITULO DO SUBTITULO CLAVES MUSICAIS-->
+                <h2>Clave de fá</h2>
+                <!-- IMAGEM DE UMA CLAVE DE FÁ NA PAUTA -->
+                <div class="img-clave_fa">
+                    <img src="IMG/FORMAÇÃO_MUSICAL/clave_de_fá.png" alt="" style="width: 60%;">
+                </div>
+                    
+                <p>A clave de fá lê-se apartir da quarta linha, começando na nota fá, tendo em conta a ordem 
+                    das 7 notas musicais(Dó, Ré, Mi , Fá, Sol, Lá, Si). Vê a imagem abaixo. 
+                </p>
+
+                <!-- IMAGEM DE UMA CLAVE DE FÁ NA PAUTA COM ESCALA -->
+                <div class="img-clave-fa-escala">
+                    <img src="IMG/FORMAÇÃO_MUSICAL/img-clave-fa-escala.png" alt="" style="width: 60%;">
+                </div>
+                <p>
+                    Um truque para decorares mais facilmente é veres a nota posicionada e pensar como se fosse duas notas 
+                    mais a cima e a nota no sitio em que pensas-te que estiva posicionada duas notas mais a cima, é a mesma nota que 
+                    na clave de sol, ou seja, se na pauta a nota localizada na clave de fá for sol, mas tu ainda não sabes que é um sol, 
+                    basta passar duas notas para cima e pensar como na clave de sol , obtens o sol. Vê o exemplo seguinte. 
+                </p>
+                
+            </div>
+            
+        </div>
+
+        <!-- CLASS EXEMPLO DA CLAVE DE SOL -->
+        <div class="exemplo-clavesol-fa">
+            <p> Aqui está a nota sol na clave de sol</p>
+            <div class="img-nota_sol-clave_sol">
+                <img src="IMG/FORMAÇÃO_MUSICAL/NOTASOL-CLAVE-SOL.png" alt="">
+            </div>
+            <p> E aqui está a nota sol na clave de fá</p>
+            <div class="img-notaSol-clavefa">
+                <img src="IMG/FORMAÇÃO_MUSICAL/NOTAsol-claveFa.png" alt="">
+            </div>
+            <p>
+                Se subirmos duas notas na clave de fá, obtemos o sol na clave de sol, ou seja, a nota que esta na clave de fá 
+                é a nota sol. 
+            </p>
+        </div> 
+
+        <div class="geral-tempos">
+            <div class="tempos">
+                <h1>Tempos</h1>
+                <p>Para tocar uma música é preciso tempos para marcar a duração de cada nota. É com os tempos que se consegue 
+                    acelar uma música ou não. Lembrando que tempos na música não são segundos. Usando o metronomo ao lado dá para 
+                    perceber melhor. (Arrasta a barra para ajustar os BPMs)</p>
+                
+            </div>
+            <!-- CLASS METRONOMO --> 
+            <div class="metronomo">
+                <div class="quadrado-preto">
+
+                
+                    <!-- Texto de quanto está a velocidade do metronomo  --> 
+                    <h5 id="bpmValue"> 70 bpm </h5>
+                    <div class="btn-aumentar_diminuir">
+                        <button id="increaseBpm" >+</button>
+                        <button id="decreaseBpm" >-</button>
+                    </div>
+                    <div class="linha-ajusta">
+                        <!-- CRIA A LINHA COM A BOLINHA / VALOR MIN / VALOR MAX / ID --> 
+                        <input type="range" min="15" max="200" value="70" id="bpm">
+                    </div>
+                    
+                    <!-- AUDIO --> 
+                    <audio src="AUDIO/metronomo/metronome-85688.mp3"></audio>
+                    <div class="btn-play">
+                        <button id="play">Play</button>
+                    </div>
+                
+                </div>
+            </div>
+
+        </div>
+            
+        
+
+        <!-- CLASS FIGURAS MUSICAIS -->
+        <div class="figurasmusicais">
+            <h1>Figuras musicias e pausas</h1>
+            <p>
+                Como vimos anteriormente para fazer musica é preciso tempos. Cada figura musical e cada pausa tem
+                um determinado tempo.  
+            </p>
+            <div class="img-tabela">
+                <img src="IMG/FORMAÇÃO_MUSICAL/Tabela_figuras.png" alt="">           
+            </div>
+        </div>
+        
+    </main>
+    <div class="politicasprivacidade">
+        <p>2024 PMusic. Todos os direitos reservados. <a href="policasprivacidade.html">Ler</a></p>
+    </div>
+   
+        
+    
+</body>
+</html>
