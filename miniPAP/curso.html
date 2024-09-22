@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Importação do botao -->
+    <link rel="stylesheet" href="Curso/css/botaoaprender.css">
+
+    <!-- Importaçao das paginas do header -->
+    <link rel="stylesheet" href="HEADER/header.css">
+    <script src="HEADER/header.js" defer></script>
+
+    <!-- Importaçao da pagina do corpo do site -->
+    <link rel="stylesheet" href="Curso/css/txtpautas.css">
+
+    <!-- Titulo da Pagina-->
+    <title>Cursos</title>
+</head>
+<body>
+    <!-- CLASS e ID do header -->
+    <div class="header" id="header">
+
+        <!-- CLASS do botão do icon para abiri o menu -->
+        <button onclick="toggleSidebar()" class="btn_icon_header">
+            <!-- Icon para abrir o header-->
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16" >
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+            
+            
+            
+        </button>
+
+        <!-- CLASS do logo do header -->
+        <div class="logo_header">
+            <!-- Logo do site com link para voltar à pagina inicial -->
+            <a href="PaginaInicial.html" class="logo">PMusic</a>
+        </div>
+
+        <!-- CLASS e ID do icon para fechar o menu -->
+        <div class="navigation_header" id="navigation_header">
+            <!-- CLASS do botão do icon para fechar o menu -->
+            <button onclick="toggleSidebar()" class="btn_icon_header">
+                <!-- Icon para fechar o header-->
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+            </button>
+            <!-- Menus do site -->
+            <a href="paginainicial.html" class="page">Pagina Inical</a>
+            <a href="sobrenos.html">Suporte</a>
+
+        </div>
+    </div>
+
+    <main>
+        <!-- Secção da aba pauta -->
+        <section>
+            <!-- CLASS pauta -->
+            <div class="pauta">
+                <div class="img-pauta">
+                    <!-- Imagem pauta -->
+                    <img src="IMG/cursos/pautas.jpg" alt="">
+                </div>
+                <!-- CLASS titulo e texto da aba pauta -->
+                <div class="txt-pauta">
+                    <!-- Titulo -->
+                    <h1>Pautas</h1>
+                    <!-- Texto -->
+                    <p>Encontra aqui algumas Partituras para começares a dominar o teu instrumento favorito.</p>
+                    <!-- Texto no botao  e o link para entrar dentro da aba pauta -->
+                    <a href="pautas.html"  class="btn-aprender"><button>Começar</button></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Secção da aba formação músical -->
+        <section>
+            <!-- CLASS formação musical -->
+            <div class="formacao">
+                <div class="img-formacao">
+                    <!-- Imagem formação musical -->
+                    <img src="IMG/cursos/formacaomusical.png" alt="">
+                </div>
+                
+                <!-- CLASS do titulo e texto de formação musical -->
+                <div class="txt-formacao">
+                    <h1>Formação musical</h1>
+                    <p>Assim como uma partitura sem música é apenas tinta no papel, a formação musical dá vida às notas, transformando teoria em harmonia sonora. 
+                        Aprende esta linda linguagem da musica.  </p>
+                    <!-- Texto no botao  e o link para mudar para a pagina de curso de formaçao muscial -->
+                    <a href="formacao.html" class="btn-aprender"><button>Começar</button></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Secção da aba Piano -->
+        <section>
+            <!-- CLASS Piano -->
+            <div class="piano">
+                <div class="img-piano">
+                        <!-- Imagem piano -->
+                        <img src="IMG/cursos/formacaomusical.png" alt="">
+                </div>
+                <!-- CLASS do titulo e texto de Piano  -->
+                <div class="txt-piano">
+                    <h1>Piano</h1>
+                    <p> O piano é uma máquina do tempo que nos transporta para diferentes épocas e lugares. Ao aprender a tocá-lo, viajamos sem sair do lugar,
+                        explorando séculos de música e história.</p>
+
+                    <!-- Texto no botao  e o link para mudar para a pagina do curso de piano-->
+                    <a href="piano.html" class="btn-aprender"><button>Começar</button></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Secção da aba  Flauta -->
+        <section>
+            <!-- CLASS Flauta -->
+            <div class="flauta">
+                <div class="img-flauta">
+                        <!-- Imagem Guitarra -->
+                        <img src="IMG/cursos/formacaomusical.png" alt="">
+                </div>
+                <!-- CLASS do titulo e texto de Guitarra -->
+                <div class="txt-flauta">
+                    <h1>Flauta</h1>
+                    <p>Cada nota soprada na flauta é um passo rumo à harmonia interior e à expressão artística.
+                        Aprende a tocar este instrumento.  </p>
+                    <!-- Texto no botao  e o link para mudar para a pagina do curso de piano-->
+                    <a href="flauta.html" class="btn-aprender"><button>Começar</button></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Secção da aba  Guitarra -->
+        <section>
+            <!-- CLASS Guitarra -->
+            <div class="guitarra">
+                <div class="img-guitarra">
+                        <!-- Imagem Guitarra -->
+                        <img src="IMG/cursos/formacaomusical.png" alt="">
+                </div>
+                <!-- CLASS do titulo e texto de Guitarra -->
+                <div class="txt-guitarra">
+                    <h1>Guitarra</h1>
+                    <p>Aprender a tocar guitarra é um ato de paixão, perseverança e amor pela música. 
+                        Aprende a tocar este instrumento. </p>
+                    <!-- Texto no botao  e o link para mudar para a pagina do curso de piano-->
+                    <a href="guitarra.html" class="btn-aprender"><button>Começar</button></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="politicasprivacidade">
+        <p>2024 PMusic. Todos os direitos reservados. <a href="policasprivacidade.html">Ler</a></p>
+    </div>
+</body>
+</html>

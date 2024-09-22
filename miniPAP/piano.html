@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Importação do botao -->
+    <link rel="stylesheet" href="Curso/css/botaoaprender.css">
+
+    <!-- Importaçao das paginas do header -->
+    <link rel="stylesheet" href="HEADER/header.css">
+    <script src="HEADER/header.js" defer></script>
+
+    <!-- Importaçao da pagina do corpo do site -->
+    <link rel="stylesheet" href="Piano/corpo.css">
+    <link rel="stylesheet" href="Piano/teclado.css ">
+
+
+
+
+
+    <title>Piano</title>
+</head>
+<body>
+    <div class="header" id="header">
+
+        <!-- CLASS do botão do icon para abiri o menu -->
+        <button onclick="toggleSidebar()" class="btn_icon_header">
+            <!-- Icon para abrir o header-->
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+        </button>
+
+        <!-- CLASS do logo do header -->
+        <div class="logo_header">
+            <a href="PaginaInicial.html" class="logo">PMusic</a>
+        </div>
+
+        <!-- CLASS e ID do icon para fechar o menu -->
+        <div class="navigation_header" id="navigation_header">
+            <!-- CLASS do botão do icon para fechar o menu -->
+            <button onclick="toggleSidebar()" class="btn_icon_header">
+                <!-- Icon para fechar o header-->
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+            </button>
+            
+            <!-- Menus do site -->
+            <a href="curso.html">Cursos</a>
+            <a href="sobrenos.html">Suporte</a>
+
+        </div>
+    </div>
+
+
+    <main>
+        <!-- CLASS DO TITULO -->
+        <div class="titulo">
+            <!-- ID DO TITULO -->
+            <p id="Piano">Piano</p>
+        </div>
+
+        <div class="txtpianoinicial">
+            <h1>Onde são as notas no piano ?</h1>
+            <p>No piano tem-se como base a nota dó como o centro do piano, apartir dai para o lado direito é a clave de sol e para
+                o lado esquerdo a clave de fá. </p>
+            
+            <!-- CLASS DA IMAGEM DO DÓ CENTRAL NO PIANO -->
+            <div class="img-docentralpiano">
+                <!-- IMAGEM DE UMA PAUTA -->
+                <img src="IMG/PIANO/local_docentralpiano.jpg" alt="" style="width: 30%;">
+            </div>
+
+            <!-- CLASS DA PARTE NAS NOTAS NO PIANO -->
+            <div class="notaspiano">
+                <p>Depois de idenficar o Dó central, basta ter enconta a imagem ao lado:</p>
+                <!-- CLASS DA IMAGEM DO PIANO COM AS NOTAS -->
+                <div class="img-notaspiano">
+                    <!-- IMAGEM DE UMA PAUTA -->
+                    <img src="IMG/PIANO/notas_tecladopiano.webp" alt="" style="width: 30%;">
+                </div>
+            </div>
+
+            <h1>Posições das mãos no piano</h1>
+            <p>No piano, numeramos os dedos de 1 a 5, sendo o 1 o polegar, o 2 o indicador, o 3 o médio,
+                o 4 o anelar, e o 5 o mindinho. A posição das mãos é muito importante porque é com a posição das mãos
+                que conseguidos, principalmente tocar direito , e fazer escalas.
+            </p>
+            <div class="img-notaspiano">
+                <!-- IMAGEM DE UMA PAUTA -->
+                <img src="IMG/PIANO/dados-piano.jpg" alt="" style="width: 30%;">
+            </div>
+            
+
+            
+        </div>
+    </main>
+
+     <!-- PIANO  -->
+     <b class="piano">
+
+        <section class="controls">
+
+            <h1>Manual do Dev | Piano</h1>
+
+            <label class="checkbox__label">
+                Show keys
+                <span class="switcher">
+                    <span class="switcher__button"></span>
+                </span>
+                <input type="checkbox" class="checkbox__keys" hidden>
+            </label>
+
+        </section>
+
+        <section class="piano__keys disabled-keys">
+
+            <div class="key white" data-note="1"><span>TAB</span></div>
+            <div class="key black" data-note="2"><span>1</span></div>
+            <div class="key white" data-note="3"><span>q</span></div>
+            <div class="key black" data-note="4"><span>2</span></div>
+            <div class="key white" data-note="5"><span>w</span></div>
+            <div class="key white" data-note="6"><span>e</span></div>
+            <div class="key black" data-note="7"><span>4</span></div>
+            <div class="key white" data-note="8"><span>r</span></div>
+            <div class="key black" data-note="9"><span>5</span></div>
+            <div class="key white" data-note="10"><span>t</span></div>
+            <div class="key black" data-note="11"><span>6</span></div>
+            <div class="key white" data-note="12"><span>y</span></div>
+            <div class="key white" data-note="13"><span>u</span></div>
+            <div class="key black" data-note="14"><span>8</span></div>
+            <div class="key white" data-note="15"><span>i</span></div>
+            <div class="key black" data-note="16"><span>9</span></div>
+            <div class="key white" data-note="17"><span>o</span></div>
+            <div class="key white" data-note="18"><span>p</span></div>
+            <div class="key black" data-note="19"><span>-</span></div>
+            <div class="key white" data-note="20"><span>[</span></div>
+            <div class="key black" data-note="21"><span>=</span></div>
+            <div class="key white" data-note="22"><span>]</span></div>
+            <div class="key black" data-note="23"><span>&larr;</span></div>
+            <div class="key white" data-note="24"><span>\</span></div>
+
+        </section>
+
+    </section>  
+
+    <script src="Piano/js/script.js"></script>
+
+    <div class="politicasprivacidade">
+        <p>2024 PMusic. Todos os direitos reservados. <a href="policasprivacidade.html">Ler</a></p>
+    </div>
+</body>
+</html>

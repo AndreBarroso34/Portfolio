@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pautas</title>
+
+    <!-- Importaçao das paginas do header -->
+    <link rel="stylesheet" href="HEADER/header.css">
+    <script src="HEADER/header.js" defer></script>
+
+    <!-- Importaçao das paginas do corpo do site -->
+    <link rel="stylesheet" href="pautas/pautas.css">
+
+    <!-- Importaçao das paginas do dropdown -->
+    <link rel="stylesheet" href="pautas/dropdown.css">
+
+    <!-- Importaçao do botão download -->
+    <link rel="stylesheet" href="Curso/css/botaodownload.css">
+
+
+     <!-- Importaçao da pagina do corpo do site -->
+    <link rel="stylesheet" href="Curso/css/txtpautas.css">
+
+</head>
+<body>
+    <!-- CLASS DO MEU HEADER -->
+    <div class="header" id="header">
+
+        <!-- CLASS do botão do icon para abiri o menu -->
+        <button onclick="toggleSidebar()" class="btn_icon_header">
+            <!-- Icon para abrir o header-->
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+        </button>
+
+        <!-- CLASS do logo do header -->
+        <div class="logo_header">
+            <a href="PaginaInicial.html" class="logo">PMusic</a>
+        </div>
+
+        <!-- CLASS e ID do icon para fechar o menu -->
+        <div class="navigation_header" id="navigation_header">
+            <!-- CLASS do botão do icon para fechar o menu -->
+            <button onclick="toggleSidebar()" class="btn_icon_header">
+                <!-- Icon para fechar o header-->
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+            </button>
+            
+            <!-- Menus do site -->
+            <a href="curso.html">Cursos</a>
+            <a href="sobrenos.html">Suporte</a>
+
+        </div>
+    </div>
+
+    <!-- CLASS DO TITULO -->
+    <div class="titulo">
+        <!-- ID DO TITULO -->
+        <p id="formacao">Pautas</p>
+    </div>
+
+
+   
+    <main>
+        <!-- Dropdown -->
+        <div class="dropdown">
+            <p>Dificuldade :</p>
+            <button class="dropbtn">Todos</button>
+            <div class="dropdown-content">
+                <a href="pautas.html" class="select">Todos</a><!-- todas as pautas -->
+                <a href="pautasIniciante.html">Piano-Iniciante</a><!-- pautas do piano iniciante -->
+                <a href="pautamedio.html">Piano-Médio</a><!-- pautas do piano medio -->
+                <a href="pautadificil.html">Piano-Difícil</a><!-- pautas do piano dificil -->
+                <a href="pautasIniciante.html">Flauta-Iniciante</a><!-- pautas do flauta iniciante -->
+                <a href="pautaflautamedio.html">Flauta-Médio</a><!-- pautas do flauta medio -->
+                <a href="pautaflautadificil.html">Flauta-Difícil</a><!-- pautas do flauta dificil -->
+                <a href="pautasIniciante.html">Guitarra-Iniciante</a><!-- pautas do guitarra facil -->
+                <a href="pautaguitarramedio.html">Guitarra-Médio</a><!-- pautas do guitarra medio -->
+                <a href="pautaguitarradificil.html">Guitarra-Difícil</a><!-- pautas do piano dificil -->
+            </div>
+        </div>
+        <div class="texto">
+            <!-- Categoria -->
+            <h1 class="subtitulo" id="subtitulo">Piano</h1> 
+            <div class="tone">
+                
+                <div class="pauta1">
+                    <p>Atirei o pau ao gato</p>
+                    <img src="IMG/PAUTAS/FACIL/Atireio-pau-ao-gato.png" alt="Imagem" style="width: 60%;" class="imagem">
+                    <a href="IMG/PAUTAS/FACIL/Atireio-pau-ao-gato.png" download="image.jpg" class="btn-download"><button>Download</button></a>
+                </div>
+            
+            
+                <div class="pauta2">
+                    <p>'Hark' the herald angels sing</p>
+                    <img src="IMG/PAUTAS/FACIL/hark-the-herald-angels-sing.png" alt="Imagem" style="width: 35%;" class="imagem">
+                    <a href="IMG/PAUTAS/FACIL/hark-the-herald-angels-sing.png" download="image.jpg" class="btn-download"><button>Download</button></a>
+                </div>
+            
+            
+                <div class="pauta3">
+                    <p>Spring from the four seasons</p>
+                    <img src="IMG/PAUTAS/FACIL/Spring-from-the-four-seasons.png" alt="Imagem" style="width: 37%;" class="imagem">
+                    <a href="IMG/PAUTAS/FACIL/Spring-from-the-four-seasons.png" download="image.jpg" class="btn-download"><button>Download</button></a>
+                </div>
+            </div> 
+            <div class="tone2">
+                <div class="pauta4">
+                    <p>Theme from Sonata in F k280</p>
+                    <img src="IMG/PAUTAS/FACIL/Theme-from-Sonata-in-fk280.png" alt="Imagem" style="width: 70%;" class="imagem">
+                    <a href="IMG/PAUTAS/FACIL/Theme-from-Sonata-in-fk280.png" download="image.jpg" class="btn-download"><button>Download</button></a>
+                </div>
+            
+            <!-- Medio -->
+                <div class="pauta5">
+                    <p>Bach - Johann Sebastian <br> Air on a G String2</p>
+                    <img src="IMG/PAUTAS/MEDIO/Bach- Johann-Sebastian-Air-on-a-G-String.png" alt="Imagem" style="width: 48%;" class="imagem">
+                    <a href="IMG/PAUTAS/MEDIO/Bach- Johann-Sebastian-Air-on-a-G-String.png" download="image.jpg" class="btn-download"><button>Download</button></a>
+                </div>
+            
+            
+                <div class="pauta6">
+                    <p>Chopin - Frédéric Waltz no.10 in B minor-op69 no.2</p>
+                    <img src="IMG/PAUTAS/MEDIO/Chopin-Frédéric Waltz-no10-in-B-minor-op69-no2.png" alt="Imagem" style="width: 46%;" class="imagem">
+                    <a href="IMG/PAUTAS/MEDIO/Chopin-Frédéric Waltz-no10-in-B-minor-op69-no2.png" download="image.jpg" class="btn-download"><button>Download</button></a>
+                </div>
+            </div> 
+            <div class="tone3">
+                <div class="pauta7">
+                    <p>Satie , Erik - Gnossienne No.1</p>
+                    <img src="IMG/PAUTAS/MEDIO/Satie-Erik-Gnossienne-No1.png" alt="Imagem" style="width: 50%;" class="imagem">
+                    <a href="IMG/PAUTAS/MEDIO/Satie-Erik-Gnossienne-No1.png" download="image.jpg" class="btn-download"><button>Download</button></a>
+                </div>
+            
+            
+                <div class="pauta8">
+                    <p>Cory Gabel - Twilight Waltz</p>
+                    <img src="IMG/PAUTAS/MEDIO/Cory-Gabel-Twilight-Waltz.png" alt="Imagem" style="width: 50%;" class="imagem">
+                    <a href="IMG/PAUTAS/MEDIO/Cory-Gabel-Twilight-Waltz.png" download="image.jpg" class="btn-download"><button>Download</button></a>
+                </div>
+            
+                <!-- Dificil -->
+            
+                <div class="pauta9">
+                    <p>Chopin, Frédéric - Nocturne Opus 9. No.2</p>
+                    <img src="IMG/PAUTAS/DIFICIL/Chopin-Frédéric-Nocturne-Opus 9-No2.png" alt="Imagem" style="width: 54%;" class="imagem">
+                    <a href="IMG/PAUTAS/DIFICIL/Chopin-Frédéric-Nocturne-Opus 9-No2.png" download="Chopin-Frédéric-Nocturne-Opus 9-No2" class="btn-download"><button>Download</button></a>
+                </div>
+            </div> 
+            <div class="tone4">
+                <div class="pauta10">
+                    <p>Chopin, Frédéric - Waltz no.10 in B minor op.69 no.2</p>
+                    <img src="IMG/PAUTAS/DIFICIL/Chopin-Frédéric-Waltz-no10 in-B-minor-op69-no2.png" alt="Imagem" style="width: 45%;" class="imagem">
+                    <a href="IMG/PAUTAS/DIFICIL/Chopin-Frédéric-Waltz-no10 in-B-minor-op69-no2.png" download="image.jpg" class="btn-download"><button>Download</button></a>
+                </div>    
+            </div>  
+            
+            <!-- -------------    FLAUTA   --------------- -->
+
+            <!-- Categoria -->
+            <h1 class="subtitulo" id="subtitulo">Flauta</h1> 
+            <div class="tone">
+                <div class="pauta1">
+                    <p>Avé Maria</p>
+                    <img src="IMG/PAUTAS/FLAUTA/FACIL/ave-maria.webp" alt="Imagem" style="width: 35%;" class="imagem">
+                    <a href="IMG/PAUTAS/FLAUTA/FACIL/ave-maria.webp" download="image.jpg" class="btn-download"><button>Download</button></a>
+                </div>
+            
+            
+                <div class="pauta2-flauta">
+                    <p>Friends</p>
+                    <img src="IMG/PAUTAS/FLAUTA/FACIL/friends.webp" alt="Imagem" style="width: 95%;" class="imagem">
+                    <a href="IMG/PAUTAS/FLAUTA/FACIL/friends.webp" download="image.jpg" class="btn-download"><button>Download</button></a>
+                </div>
+            
+            
+                <div class="pauta3">
+                    <p>Luar do sertão</p>
+                    <img src="IMG/PAUTAS/FLAUTA/FACIL/luar-do-sertao.jpg" alt="Imagem" style="width: 127%;" class="imagem">
+                    <a href="IMG/PAUTAS/FLAUTA/FACIL/luar-do-sertao.jpg" download="image.jpg" class="btn-download"><button>Download</button></a>
+                </div>
+            </div> 
+            <div class="tone2">
+                <div class="pauta1">
+                    <p>Adagio</p>
+                    <img src="IMG/PAUTAS/FLAUTA/MEDIO/Adagio-1.png" alt="Imagem" style="width: 40%;" class="imagem">
+                    <a href="IMG/PAUTAS/FLAUTA/MEDIO/Adagio-1.png" download="image.jpg" class="btn-download"><button>Download</button></a>
+                </div>
+            
+            
+                <div class="pauta2">
+                    <p>All of me</p>
+                    <img src="IMG/PAUTAS/FLAUTA/MEDIO/all-of-me.webp" alt="Imagem" style="width: 80%;" class="imagem">
+                    <a href="IMG/PAUTAS/FLAUTA/MEDIO/all-of-me.webp" download="image.jpg" class="btn-download"><button>Download</button></a>
+                </div>
+            
+            
+                <div class="pauta6-flauta">
+                    <p>Aquarela</p>
+                    <img src="IMG/PAUTAS/FLAUTA/MEDIO/Aquarela.webp" alt="Imagem" style="width: 80%;" class="imagem">
+                    <a href="IMG/PAUTAS/FLAUTA/MEDIO/Aquarela.webp" download="image.jpg" class="btn-download"><button>Download</button></a>
+                </div>
+            </div> 
+            <div class="tone3">
+                <div class="pauta1">
+                    <p>Flauta Chorona</p>
+                    <img src="IMG/PAUTAS/FLAUTA/DIFICIL/flauta-chorona.jpg" alt="Imagem" style="width: 50%;" class="imagem">
+                    <a href="IMG/PAUTAS/FLAUTA/DIFICIL/flauta-chorona.jpg" download="image.jpg" class="btn-download"><button>Download</button></a>
+                </div>
+            
+            
+                <div class="pauta2">
+                    <p>frozen heart - disney frozen</p>
+                    <img src="IMG/PAUTAS/FLAUTA/DIFICIL/frozen-heart--disney-frozen.jpg" alt="Imagem" style="width: 55%;" class="imagem">
+                    <a href="IMG/PAUTAS/FLAUTA/DIFICIL/frozen-heart--disney-frozen.jpg" download="image.jpg" class="btn-download"><button>Download</button></a>
+                </div>
+            
+            
+                <div class="pauta3">
+                    <p>Indiana jones Theme</p>
+                    <img src="IMG/PAUTAS/FLAUTA/DIFICIL/indiana-jones-theme.jpg" alt="Imagem" style="width: 47%;" class="imagem">
+                    <a href="IMG/PAUTAS/FLAUTA/DIFICIL/indiana-jones-theme.jpg" download="image.jpg" class="btn-download"><button>Download</button></a>
+                </div>
+            </div> 
+
+            <!-- -------------    Guitarra  --------------- -->
+
+            <!-- Categoria -->
+            <h1 class="subtitulo" id="subtitulo">Guitarra</h1> 
+            <div class="tone">
+                <div class="pauta1">
+                    <p>Hands to myself</p>
+                    <img src="IMG/PAUTAS/GUITARRA/FACIL/hans-to-myself.png" alt="Imagem" style="width: 60%;" class="imagem">
+                    <a href="IMG/PAUTAS/GUITARRA/FACIL/hans-to-myself.png" download="image.jpg" class="btn-download"><button>Download</button></a>
+                </div>
+            
+            
+                <div class="pauta2-flauta">
+                    <p>himno a la alegria</p>
+                    <img src="IMG/PAUTAS/GUITARRA/FACIL/himno-a-la-alegria.jpg" alt="Imagem" style="width: 95%;" class="imagem">
+                    <a href="IMG/PAUTAS/GUITARRA/FACIL/himno-a-la-alegria.jpg" download="image.jpg" class="btn-download"><button>Download</button></a>
+                </div>
+            
+            
+                <div class="pauta3">
+                    <p>waltz in e minor</p>
+                    <img src="IMG/PAUTAS/GUITARRA/FACIL/waltz-in-e-minor.png" alt="Imagem" style="width: 60%;" class="imagem">
+                    <a href="IMG/PAUTAS/GUITARRA/FACIL/waltz-in-e-minor.png" download="image.jpg" class="btn-download"><button>Download</button></a>
+                </div>
+            </div> 
+            <div class="tone2">
+                <div class="pauta1">
+                    <p>jeito do mato</p>
+                    <img src="IMG/PAUTAS/GUITARRA/MEDIO/jeito-do-mato.jpg" alt="Imagem" style="width: 70%;" class="imagem">
+                    <a href="IMG/PAUTAS/GUITARRA/MEDIO/jeito-do-mato.jpg" download="image.jpg" class="btn-download"><button>Download</button></a>
+                </div>
+            
+            
+                <div class="pauta2">
+                    <p>Media luna andina</p>
+                    <img src="IMG/PAUTAS/GUITARRA/MEDIO/media-luna-andina.webp" alt="Imagem" style="width: 53%;" class="imagem">
+                    <a href="IMG/PAUTAS/GUITARRA/MEDIO/media-luna-andina.webp" download="image.jpg" class="btn-download"><button>Download</button></a>
+                </div>
+            
+            
+                <div class="pauta6-flauta">
+                    <p>Sem voce</p>
+                    <img src="IMG/PAUTAS/GUITARRA/MEDIO/sem-voce-v-3.jpg" alt="Imagem" style="width: 73%;" class="imagem">
+                    <a href="IMG/PAUTAS/FLAUTA/MEDIO/Aquarela.webp" download="image.jpg" class="btn-download"><button>Download</button></a>
+                </div>
+            </div> 
+
+            <div class="tone3">           
+                <div class="pauta2">
+                    <p>Tremolo guitar excerpt</p>
+                    <img src="IMG/PAUTAS/GUITARRA/DIFICIL/Tremolo-guitar-excerpt.jpg" alt="Imagem" style="width: 65%;" class="imagem">
+                    <a href="IMG/PAUTAS/GUITARRA/DIFICIL/Tremolo-guitar-excerpt.jpg" download="image.jpg" class="btn-download"><button>Download</button></a>
+                </div>
+            
+            
+                <div class="pauta3">
+                    <p>Volver</p>
+                    <img src="IMG/PAUTAS/GUITARRA/DIFICIL/volver.webp" alt="Imagem" style="width: 67%;" class="imagem">
+                    <a href="IMG/PAUTAS/GUITARRA/DIFICIL/volver.webp" download="image.jpg" class="btn-download"><button>Download</button></a>
+                </div>
+            </div> 
+        </div>      
+    </main>
+    <div class="politicasprivacidade">
+        <p>2024 PMusic. Todos os direitos reservados. <a href="policasprivacidade.html">Ler</a></p>
+    </div>
+</body>
+</html>
