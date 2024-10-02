@@ -1,0 +1,10 @@
+C:\Users\andre\OneDrive\Documents\VisualStudio\jogo\jogo\bin\Debug\jogo.exe.config
+C:\Users\andre\OneDrive\Documents\VisualStudio\jogo\jogo\bin\Debug\jogo.exe
+C:\Users\andre\OneDrive\Documents\VisualStudio\jogo\jogo\bin\Debug\jogo.pdb
+C:\Users\andre\OneDrive\Documents\VisualStudio\jogo\jogo\obj\Debug\jogo.csproj.AssemblyReference.cache
+C:\Users\andre\OneDrive\Documents\VisualStudio\jogo\jogo\obj\Debug\jogo.Form1.resources
+C:\Users\andre\OneDrive\Documents\VisualStudio\jogo\jogo\obj\Debug\jogo.Properties.Resources.resources
+C:\Users\andre\OneDrive\Documents\VisualStudio\jogo\jogo\obj\Debug\jogo.csproj.GenerateResource.cache
+C:\Users\andre\OneDrive\Documents\VisualStudio\jogo\jogo\obj\Debug\jogo.csproj.CoreCompileInputs.cache
+C:\Users\andre\OneDrive\Documents\VisualStudio\jogo\jogo\obj\Debug\jogo.exe
+C:\Users\andre\OneDrive\Documents\VisualStudio\jogo\jogo\obj\Debug\jogo.pdb
